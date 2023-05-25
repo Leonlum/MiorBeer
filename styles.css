@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    color: yellow;
+    font-style: italic;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photo {
+    margin: 10px;
+    text-align: center;
+}
+
+.photo img {
+    width: 77%; /* Ajuste la taille des images selon tes besoins */
+    height: 73%;
+    object-fit: cover;
+}
+
+.caption {
+    margin-top: 10px;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
